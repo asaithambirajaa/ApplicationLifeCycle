@@ -12,6 +12,8 @@
 		356C4BD41E961AA3004F155D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356C4BD21E961AA3004F155D /* Main.storyboard */; };
 		356C4BD61E961AA3004F155D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356C4BD51E961AA3004F155D /* Assets.xcassets */; };
 		356C4BD91E961AA3004F155D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356C4BD71E961AA3004F155D /* LaunchScreen.storyboard */; };
+		356C4BE11E962123004F155D /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C4BE01E962123004F155D /* MainNavigationController.swift */; };
+		356C4BE31E9624D2004F155D /* Login_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 356C4BE21E9624D2004F155D /* Login_BG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		356C4BD51E961AA3004F155D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		356C4BD81E961AA3004F155D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		356C4BDA1E961AA3004F155D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356C4BE01E962123004F155D /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		356C4BE21E9624D2004F155D /* Login_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login_BG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				356C4BCE1E961AA3004F155D /* AppDelegate.swift */,
 				356C4BD01E961AA3004F155D /* ViewController.swift */,
+				356C4BE01E962123004F155D /* MainNavigationController.swift */,
 				356C4BD21E961AA3004F155D /* Main.storyboard */,
 				356C4BD51E961AA3004F155D /* Assets.xcassets */,
+				356C4BE21E9624D2004F155D /* Login_BG.png */,
 				356C4BD71E961AA3004F155D /* LaunchScreen.storyboard */,
 				356C4BDA1E961AA3004F155D /* Info.plist */,
 			);
@@ -125,6 +131,7 @@
 			files = (
 				356C4BD91E961AA3004F155D /* LaunchScreen.storyboard in Resources */,
 				356C4BD61E961AA3004F155D /* Assets.xcassets in Resources */,
+				356C4BE31E9624D2004F155D /* Login_BG.png in Resources */,
 				356C4BD41E961AA3004F155D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356C4BE11E962123004F155D /* MainNavigationController.swift in Sources */,
 				356C4BD11E961AA3004F155D /* ViewController.swift in Sources */,
 				356C4BCF1E961AA3004F155D /* AppDelegate.swift in Sources */,
 			);
